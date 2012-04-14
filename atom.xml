@@ -4,7 +4,7 @@
   <title><![CDATA[Yao-Po Wang]]></title>
   <link href="http://blue119.github.com/atom.xml" rel="self"/>
   <link href="http://blue119.github.com/"/>
-  <updated>2012-04-14T22:10:07+08:00</updated>
+  <updated>2012-04-14T22:30:42+08:00</updated>
   <id>http://blue119.github.com/</id>
   <author>
     <name><![CDATA[Yao-Po Wang]]></name>
@@ -12,6 +12,118 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[code snippet]]></title>
+    <link href="http://blue119.github.com/blog/2012/04/14/code-snippet/"/>
+    <updated>2012-04-14T22:19:00+08:00</updated>
+    <id>http://blue119.github.com/blog/2012/04/14/code-snippet</id>
+    <content type="html"><![CDATA[<p>code snippet</p>
+
+<figure class='code'><figcaption><span>Discover if a number is prime </span><a href='http://www.noulakaz.net/weblog/2007/03/18/a-regular-expression-to-check-for-prime-numbers/'>Source Article</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="k">class</span> <span class="nc">Fixnum</span>
+</span><span class='line'>  <span class="k">def</span> <span class="nf">prime?</span>
+</span><span class='line'>    <span class="p">(</span><span class="s1">&#39;1&#39;</span> <span class="o">*</span> <span class="nb">self</span><span class="p">)</span> <span class="o">!~</span> <span class="sr">/^1?$|^(11+?)\1+$/</span>
+</span><span class='line'>  <span class="k">end</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>show from gist</p>
+
+<div><script src='https://gist.github.com/2384728.js?file='></script>
+<noscript><pre><code>#include&lt;stdio.h&gt;
+#include&lt;stdlib.h&gt;
+#include&lt;string.h&gt;
+#include&lt;mcheck.h&gt;
+
+struct mem_link{
+    int id;
+    char name[32];
+    struct mem_link *next;
+} mem_link_t;
+
+int i;
+int main(void)
+{
+    struct mem_link *new;
+    struct mem_link *head;
+    struct mem_link *tail;
+    
+    head = (struct mem_link *)malloc(sizeof(struct mem_link));
+    head-&gt;id = 0;
+    head-&gt;next = NULL;
+    tail = head;
+
+    for(i = 1; i &lt; 10; i++){
+        new = (struct mem_link *)malloc(sizeof(struct mem_link));
+        new-&gt;id = i;
+        new-&gt;next = NULL;
+        tail-&gt;next = new;
+        tail = tail-&gt;next;
+    }
+
+    new = head;
+    while(new){
+        printf(&quot;ID = %d\n&quot;, new-&gt;id);
+        new = new-&gt;next;
+    }
+#if 0
+    while(head){
+        new = head;
+        head = head-&gt;next;
+        free(new);
+    }
+#endif
+    return 0;
+}
+</code></pre></noscript></div>
+
+
+<p>show from file</p>
+
+<figure class='code'><figcaption><span> (ip_verify.js)</span> <a href='http://blue119.github.com/downloads/code/ip_verify.js'>download</a></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+</pre></td><td class='code'><pre><code class='js'><span class='line'><span class="kd">function</span> <span class="nx">is_ip</span><span class="p">(</span><span class="nx">strIP</span><span class="p">)</span>
+</span><span class='line'><span class="p">{</span>
+</span><span class='line'><span class="kd">var</span> <span class="nx">re</span><span class="o">=</span><span class="sr">/^(\d+)\.(\d+)\.(\d+)\.(\d+)$/g</span>
+</span><span class='line'><span class="k">if</span> <span class="p">(</span><span class="nx">re</span><span class="p">.</span><span class="nx">test</span><span class="p">(</span><span class="nx">strIP</span><span class="p">))</span>
+</span><span class='line'><span class="p">{</span>
+</span><span class='line'><span class="k">if</span> <span class="p">(</span><span class="nb">RegExp</span><span class="p">.</span><span class="nx">$1</span><span class="o">&lt;</span><span class="mi">256</span> <span class="o">&amp;&amp;</span> <span class="nb">RegExp</span><span class="p">.</span><span class="nx">$2</span><span class="o">&lt;</span><span class="mi">256</span> <span class="o">&amp;&amp;</span> <span class="nb">RegExp</span><span class="p">.</span><span class="nx">$3</span><span class="o">&lt;</span><span class="mi">256</span> <span class="o">&amp;&amp;</span> <span class="nb">RegExp</span><span class="p">.</span><span class="nx">$4</span><span class="o">&lt;</span><span class="mi">256</span><span class="p">)</span>
+</span><span class='line'><span class="k">return</span> <span class="kc">true</span><span class="p">;</span>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'><span class="k">return</span> <span class="kc">false</span><span class="p">;</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Inline Code Blocks</p>
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">2</span><span class="p">:</span>
+</span><span class='line'>    <span class="k">print</span> <span class="s">&#39;give me a exist file&#39;</span>
+</span><span class='line'>    <span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">()</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[new post 1]]></title>
