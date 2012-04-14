@@ -2,7 +2,7 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://blue119.github.com/blog/2012/04/14/test-page/</loc>
-        <lastmod>2012-04-14T22:53:57+08:00</lastmod>
+        <lastmod>2012-04-14T22:54:52+08:00</lastmod>
     </url>
     <url>
         <loc>http://blue119.github.com/blog/2012/04/14/foo-slash-new-post-1/</loc>
@@ -18,10 +18,10 @@
     </url>
     <url>
         <loc>http://blue119.github.com/blog/archives/</loc>
-        <lastmod>2012-04-14T22:53:57+08:00</lastmod>
+        <lastmod>2012-04-14T22:54:52+08:00</lastmod>
     </url>
     <url>
         <loc>http://blue119.github.com/</loc>
-        <lastmod>2012-04-14T22:53:57+08:00</lastmod>
+        <lastmod>2012-04-14T22:54:52+08:00</lastmod>
     </url>
 </urlset>
