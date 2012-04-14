@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Yao-Po Wang]]></title>
-  <link href="http://blue119.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Test | Yao-Po Wang]]></title>
+  <link href="http://blue119.github.com/blog/categories/test/atom.xml" rel="self"/>
   <link href="http://blue119.github.com/"/>
   <updated>2012-04-14T22:06:25+08:00</updated>
   <id>http://blue119.github.com/</id>
