@@ -4,7 +4,7 @@
   <title><![CDATA[Category: New Tech | Yao-Po Wang]]></title>
   <link href="http://blue119.github.com/blog/categories/new-tech/atom.xml" rel="self"/>
   <link href="http://blue119.github.com/"/>
-  <updated>2012-04-14T22:45:35+08:00</updated>
+  <updated>2012-04-14T22:54:02+08:00</updated>
   <id>http://blue119.github.com/</id>
   <author>
     <name><![CDATA[Yao-Po Wang]]></name>
@@ -19,6 +19,8 @@
     <updated>2012-04-14T21:29:00+08:00</updated>
     <id>http://blue119.github.com/blog/2012/04/14/test-page</id>
     <content type="html"><![CDATA[<p>Hello World!!!!</p>
+
+<p>Error processing input, expected syntax: {% img [class name(s)] [http[s]:/]/path/to/image [width [height]] [title text | "title text" ["alt text"]] %}</p>
 ]]></content>
   </entry>
   
