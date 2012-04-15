@@ -4,7 +4,7 @@
   <title><![CDATA[Yao-Po Wang]]></title>
   <link href="http://blue119.github.com/atom.xml" rel="self"/>
   <link href="http://blue119.github.com/"/>
-  <updated>2012-04-15T08:48:11+08:00</updated>
+  <updated>2012-04-15T11:56:05+08:00</updated>
   <id>http://blue119.github.com/</id>
   <author>
     <name><![CDATA[Yao-Po Wang]]></name>
@@ -168,7 +168,7 @@ int main(void)
     <id>http://blue119.github.com/blog/2012/04/14/test-page</id>
     <content type="html"><![CDATA[<p>Hello World!!!!</p>
 
-<p>Error processing input, expected syntax: {% img [class name(s)] [http[s]:/]/path/to/image [width [height]] [title text | &#8220;title text&#8221; [&#8220;alt text&#8221;]] %}</p>
+<p><img class="left" src="images/250.jpg" title="" ></p>
 ]]></content>
   </entry>
   
