@@ -4,7 +4,7 @@
   <title><![CDATA[Yao-Po Wang]]></title>
   <link href="http://blue119.github.com/atom.xml" rel="self"/>
   <link href="http://blue119.github.com/"/>
-  <updated>2012-04-15T11:57:03+08:00</updated>
+  <updated>2012-04-15T22:12:31+08:00</updated>
   <id>http://blue119.github.com/</id>
   <author>
     <name><![CDATA[Yao-Po Wang]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[title]]></title>
+    <link href="http://blue119.github.com/blog/2012/04/15/title/"/>
+    <updated>2012-04-15T22:09:00+08:00</updated>
+    <id>http://blue119.github.com/blog/2012/04/15/title</id>
+    <content type="html"><![CDATA[<p>Hello Wold</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[code snippet]]></title>
