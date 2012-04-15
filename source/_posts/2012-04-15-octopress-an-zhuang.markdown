@@ -3,7 +3,7 @@ layout: post
 title: "octopress 安裝"
 date: 2012-04-15 23:02
 comments: true
-categories: 
+categories: octopress
 ---
 
 剛開始有 blog 時，也是跟一般人一樣自已架 wordpress ，不過那已經是很久以前的事了，後來有了 blogspot 之後，就換到那了，最主要原因還是 hosting 的問題，有人能幫忙 hosting 當然是最好了。只是一直不是很習慣 WYSIWYG 的方式寫 blog 尤其是常常要寫到一半又切到 html mode 去改 code 很不方便。而最近 lag 了半年才發現 octopress 這個東西，對我來說太棒了，可以直接用 vi 來寫 blog 、用 git 來管理文章而且又可以讓 github 來幫我 hosting :)。 第一篇文章也不免淑寫一下安裝過程。
@@ -213,7 +213,7 @@ $ rake generate
 Custom Domains
 --------------
 1.建立 CNAME file，在 git push 上 github
-	echo "ypwang.info" > CNAME
+	echo "ypwang.info" > source/CNAME
 
 
 2.在你的 DNS Host 網站，把你的 domain 指到 207.97.227.245，建立 www 的 alias name 指到你的github page(www.ypwang.info).
