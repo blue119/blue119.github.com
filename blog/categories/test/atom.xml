@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Test | Yao-Po Wang]]></title>
   <link href="http://blue119.github.com/blog/categories/test/atom.xml" rel="self"/>
   <link href="http://blue119.github.com/"/>
-  <updated>2012-04-15T11:56:05+08:00</updated>
+  <updated>2012-04-15T11:57:03+08:00</updated>
   <id>http://blue119.github.com/</id>
   <author>
     <name><![CDATA[Yao-Po Wang]]></name>
@@ -20,7 +20,7 @@
     <id>http://blue119.github.com/blog/2012/04/14/test-page</id>
     <content type="html"><![CDATA[<p>Hello World!!!!</p>
 
-<p><img class="left" src="images/250.jpg" title="" ></p>
+<p><img class="left" src="http://blue119.github.com/images/250.jpg" title="" ></p>
 ]]></content>
   </entry>
   
