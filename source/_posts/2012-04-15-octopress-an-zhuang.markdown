@@ -77,7 +77,7 @@ Deploying to Github Pages
 -------------------------
 平時就有在使用 github ，由所當然要把 octopress 放到 github 上，而且我還希望我的 blog 的 url 為 **blue119.github.com。**
 
-1.先到 github 上新增一個以你 url 的專安名稱，所由我的專案名稱為 **blue119.github.com。**這裡需要注意一下，開頭一定要是你的 username。
+1.先到 github 上新增一個以你 url 的專安名稱，所以我的專案名稱為 **blue119.github.com。**這裡需要注意一下，開頭一定要是你的 username。
 
 **$ rake setup_github_pages**
 	Enter the read/write url for your repository: git@github.com:blu119/blue119.github.com.git
