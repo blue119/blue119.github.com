@@ -217,4 +217,3 @@ Custom Domains
 
 
 2.在你的 DNS Host 網站，把你的 domain 指到 207.97.227.245，建立 www 的 alias name 指到你的github page(www.ypwang.info).
-
