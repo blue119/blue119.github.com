@@ -4,7 +4,7 @@
   <title><![CDATA[Category: octopress | Yao-Po Wang]]></title>
   <link href="http://blue119.github.com/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://blue119.github.com/"/>
-  <updated>2012-04-15T23:57:07+08:00</updated>
+  <updated>2012-06-03T16:12:19+08:00</updated>
   <id>http://blue119.github.com/</id>
   <author>
     <name><![CDATA[Yao-Po Wang]]></name>
@@ -100,7 +100,7 @@ Your bundle is complete! Use `bundle show [gemname]` to see where a bundled gem 
 
 <p>平時就有在使用 github ，由所當然要把 octopress 放到 github 上，而且我還希望我的 blog 的 url 為 <strong>blue119.github.com。</strong></p>
 
-<p>1.先到 github 上新增一個以你 url 的專安名稱，所由我的專案名稱為 <strong>blue119.github.com。</strong>這裡需要注意一下，開頭一定要是你的 username。</p>
+<p>1.先到 github 上新增一個以你 url 的專安名稱，所以我的專案名稱為 <strong>blue119.github.com。</strong>這裡需要注意一下，開頭一定要是你的 username。</p>
 
 <p><strong>$ rake setup_github_pages</strong></p>
 
