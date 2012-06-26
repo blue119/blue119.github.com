@@ -26,7 +26,7 @@ email: blue119@gmail.com
 # ----------------------- #
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
-root: /
+root: /~blue119/
 permalink: /blog/:year/:month/:day/:title/
 source: source
 destination: public
